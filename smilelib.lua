@@ -2,8 +2,8 @@
 local nocontrol = false --Disable the control of the smile
 clear()
 cprint("Booting smile lib")
-dofile("smiletextinglib.lua") --init texting lib
 dofile("smilegraphicslib.lua") --init graphics lib
+dofile("smiletextinglib.lua") -- init texting lib
 if not nocontrol then
 dofile("smilekeyboardlib.lua") --init keyboard controls
 else
